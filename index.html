@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Anotida Mangwanda</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a9d808bc4e.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Anotida Mangwanda</span></h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2024-07-17 at 00.27.44_c1688867.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am a highly motivated and results-oriented banking consultant and software developer with
+                         hands-on expertise in T24 implementation, data analysis, and financial systems integration. 
+                         With strong skills in SQL, Python, Power BI, and Tableau, I specialize in optimizing banking 
+                         solutions to drive operational efficiency and enhance customer satisfaction. Passionate about 
+                         automating processes and solving complex problems,
+                         I aim to deliver data-driven insights that empower businesses to make informed decisions.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills',event)">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                            <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                        </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                <li><span>Software Developer</span><br>Designing and developing software applications, focusing on user-centered designs and efficient code.</li>
+                                <li><span>System Administrator</span><br>Managing IT infrastructure, including network configuration, troubleshooting, and system maintenance.</li>
+                                <li><span>Web Developer</span><br>DDeveloping dynamic, responsive websites using modern web technologies such as HTML, CSS, JavaScript, and frameworks like React and Node.js.</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2024-2025</span><br>T24 Developer - Specialized in implementing and customizing T24 core banking solutions for clients, improving transaction processing efficiency and automation.</li>
+                                    <li><span>2024</span><br>Designed and developed Power BI dashboards and SQL queries to analyze trends and improve decision-making processes for organizations.</li>
+                                    <li><span>2024</span><br>- Contributed to several web development projects, gaining hands-on experience in front-end and back-end technologies like React and Node.js.</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2026</span><br>Bachelor of Science in Computer Science, Open Institute of Technology University</li>
+                                    <li><span>2025</span><br>>Python (Completed course, focusing on Python libraries like Pandas, NumPy, and Matplotlib)</li>
+                                    <li><span>2024</span><br>Data Analytics - Completed course in data analysis using Power BI, SQL, and Excel to derive actionable insights from data.</li>
+                                </ul>
+                            </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!----------------services-------------->
+    
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>T24 Customisation</h2>
+                    <p>I have successfully customized and implemented T24 core banking solutions for several clients, 
+                        streamlining transaction processing and boosting operational efficiency.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Data Analytics</h2>
+                    <p>Leveraging Power BI and SQL, I develop dynamic dashboards and analytical
+                        reports to facilitate decision-making, 
+                        enhance data visibility, and optimize business operations.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Custom Software Development</h2>
+                    <p> I design and build customized software solutions tailored to meet 
+                        client needs, from mobile apps to complex enterprise systems.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------portfolio--------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Banking System Optimization</h3>
+                        <p>Developed and integrated third-party APIs for banking automation, reducing manual work
+                        by 40%.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Banking System Optimization</h3>
+                        <p>Developed and integrated third-party APIs for banking automation, reducing manual work
+                        by 40%.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Banking System Optimization</h3>
+                        <p>Developed and integrated third-party APIs for banking automation, reducing manual work
+                        by 40%.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+<!--------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+            <p><i class="fa-solid fa-phone"></i>0123456789</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/anotida-mangwanda-04bb8b2b8/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/105.ano?igsh=MXc5cWR3Y3dqNjZlaw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/anotidaman79399?s=11"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://github.com/Annotida"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+            <a href="images/Anotida_Mangwanda_CV.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-regular fa-copyright"> </i> 2025 Anotida Mangwanda </i></i>Portfolio</p>
+    </div>
+</div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname, event){
+            for(let tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(let tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxI9MasqUhiQ6VJL96ZOboYPoPYnZ5kmGFhufwOHKW73Ffz98_lZ10W1k4phYHkmnvA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
